@@ -4,9 +4,7 @@ import { MenuBar, Input, Title } from './styles'
 const Menu = (): ReactElement => {
   return (
     <MenuBar>
-      <Title>
-        Logo
-      </Title>
+      <Title>Logo</Title>
 
       <Input placeholder='Search a pokemon...' />
     </MenuBar>
